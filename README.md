@@ -1,2 +1,2 @@
-# Basic C++ exercises
+# C++ exercises
 Testing C++ code
