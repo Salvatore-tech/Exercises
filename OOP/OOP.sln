@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Point", "Square\Square.vcxp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Anfore", "Anfore\Anfore.vcxproj", "{4122BAAF-5AE8-4400-8B12-90AF49A0CAD0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Polimorfismo", "Polimorfismo\Polimorfismo.vcxproj", "{01CA2180-E5B1-427A-BF96-3F73A12A5F69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{4122BAAF-5AE8-4400-8B12-90AF49A0CAD0}.Release|x64.Build.0 = Release|x64
 		{4122BAAF-5AE8-4400-8B12-90AF49A0CAD0}.Release|x86.ActiveCfg = Release|Win32
 		{4122BAAF-5AE8-4400-8B12-90AF49A0CAD0}.Release|x86.Build.0 = Release|Win32
+		{01CA2180-E5B1-427A-BF96-3F73A12A5F69}.Debug|x64.ActiveCfg = Debug|x64
+		{01CA2180-E5B1-427A-BF96-3F73A12A5F69}.Debug|x64.Build.0 = Debug|x64
+		{01CA2180-E5B1-427A-BF96-3F73A12A5F69}.Debug|x86.ActiveCfg = Debug|Win32
+		{01CA2180-E5B1-427A-BF96-3F73A12A5F69}.Debug|x86.Build.0 = Debug|Win32
+		{01CA2180-E5B1-427A-BF96-3F73A12A5F69}.Release|x64.ActiveCfg = Release|x64
+		{01CA2180-E5B1-427A-BF96-3F73A12A5F69}.Release|x64.Build.0 = Release|x64
+		{01CA2180-E5B1-427A-BF96-3F73A12A5F69}.Release|x86.ActiveCfg = Release|Win32
+		{01CA2180-E5B1-427A-BF96-3F73A12A5F69}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
