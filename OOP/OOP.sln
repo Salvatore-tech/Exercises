@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rettangolo", "Rettangolo\Rettangolo.vcxproj", "{A9972F4E-24B7-4A87-8A24-9F347B538D1B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Square", "Square\Square.vcxproj", "{6C0E7B1E-8EDC-4EAD-A4C9-9C4ABD6A9D9D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Point", "Square\Square.vcxproj", "{6C0E7B1E-8EDC-4EAD-A4C9-9C4ABD6A9D9D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Anfore", "Anfore\Anfore.vcxproj", "{4122BAAF-5AE8-4400-8B12-90AF49A0CAD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{6C0E7B1E-8EDC-4EAD-A4C9-9C4ABD6A9D9D}.Release|x64.Build.0 = Release|x64
 		{6C0E7B1E-8EDC-4EAD-A4C9-9C4ABD6A9D9D}.Release|x86.ActiveCfg = Release|Win32
 		{6C0E7B1E-8EDC-4EAD-A4C9-9C4ABD6A9D9D}.Release|x86.Build.0 = Release|Win32
+		{4122BAAF-5AE8-4400-8B12-90AF49A0CAD0}.Debug|x64.ActiveCfg = Debug|x64
+		{4122BAAF-5AE8-4400-8B12-90AF49A0CAD0}.Debug|x64.Build.0 = Debug|x64
+		{4122BAAF-5AE8-4400-8B12-90AF49A0CAD0}.Debug|x86.ActiveCfg = Debug|Win32
+		{4122BAAF-5AE8-4400-8B12-90AF49A0CAD0}.Debug|x86.Build.0 = Debug|Win32
+		{4122BAAF-5AE8-4400-8B12-90AF49A0CAD0}.Release|x64.ActiveCfg = Release|x64
+		{4122BAAF-5AE8-4400-8B12-90AF49A0CAD0}.Release|x64.Build.0 = Release|x64
+		{4122BAAF-5AE8-4400-8B12-90AF49A0CAD0}.Release|x86.ActiveCfg = Release|Win32
+		{4122BAAF-5AE8-4400-8B12-90AF49A0CAD0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
