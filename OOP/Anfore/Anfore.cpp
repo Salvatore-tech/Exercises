@@ -91,13 +91,9 @@ void Indovinello::risolvi() //Azioni necessarie per risolvere l'indovinello
     print();
 }
 
-
-
 int main()
 {
     Indovinello I;
     I.risolvi();
-
-
 }
 
