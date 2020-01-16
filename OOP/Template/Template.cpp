@@ -1,4 +1,5 @@
 // Template.cpp :Esempio uso dei template, sommatoria degli elementi di un array
+  
 //
 
 #include <iostream>
@@ -19,9 +20,9 @@ int main()
     int a[] = { 1,2,3,4,5,10 };
     float b[] = { 2.2, 3.3 };
     double c[] = { 2.333, 5.764 };
-    cout <<"La somma dell'array d'interi e' "<<sumArray<int>(a, 6) << endl;
-    cout << "La somma dell'array di float e' " << sumArray<float>(b, 2) << endl;
-    cout << "La somma dell'array di double e' " << sumArray<double>(c, 2) << endl;
+    cout <<"La somma dell'array d'interi e' "<<sumArray<int>(a, sizeof(a)/sizeof(a[0])) << endl;
+    cout << "La somma dell'array di float e' " << sumArray<float>(b, sizeof(b)/sizeof(b[0])) << endl;
+    cout << "La somma dell'array di double e' " << sumArray<double>(c, sizeof(c)/sizeof(c[0])) << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
