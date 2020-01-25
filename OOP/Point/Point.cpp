@@ -8,7 +8,7 @@ class Point {
 public:
     Point();
     Point(float x, float y) { this->x = x; this->y = y; };
-    void setX(float x, float y) { this->x = x;  };
+    void setX(float x) { this->x = x;  };
     void setY(float y) { this->y = y; };
     void getX() { cout << "X: " << x << endl; };
     void getY() { cout << "Y: " << y << endl; };
