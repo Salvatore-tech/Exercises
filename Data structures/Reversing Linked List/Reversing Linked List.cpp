@@ -4,7 +4,6 @@ Reverse a linked list class using a stack
 */
 
 #include <iostream>
-
 using namespace std;
 
 class Node 
@@ -22,7 +21,7 @@ public:
     LinkedList() :head{ nullptr } {};
     Node* getHead() { return head; }
     void pushBack(const int& data);
-    void revert(const int element, Node* app);
+    void revert(const int element, Node** app);
     void visita();
     friend class Stack;
 };
@@ -70,10 +69,10 @@ void LinkedList::pushBack(const int& data)
     }
 
 }
-void LinkedList::revert(const int element, Node* app)
+void LinkedList::revert(const int element, Node** app)
 { 
-    app->data = element;
-    app = app->next;
+    *app->element = element;
+    *app = *app->next;
 
 }
 
@@ -89,18 +88,17 @@ void LinkedList::visita()
 int main()
 {
     LinkedList lista;
-    Node* app;
     Stack stack(20);
     lista.pushBack(1);
     lista.pushBack(2);
     lista.pushBack(3);
     lista.pushBack(4);
-    app = lista.getHead();
     stack.push(lista);
     lista.visita();
+    Node* app = lista.getHead();
     while (!stack.isEmpty())
     {
-        lista.revert(stack.pop(), app);
+        lista.revert(stack.pop(), &app);
     }
     lista.visita();
 
