@@ -1,6 +1,6 @@
-/* Heap.cpp :
+/* Heap.cpp : 
 Heap data structure array based, because of it's array based the first element could not be 0!
-Otherwise we can not compute the children of the root, so we have to create an array of one size greater and use the
+Otherwise we can not compute the children of the root, so we have to create an array of one size greater and use the 
 index 1 as first element
 */
 
@@ -68,7 +68,7 @@ void MaxHeap::heapify(int i) // Restore heap property between the node at i posi
 	int max;
 	if (root[i]<root[l] && l <= heapsize)
 		max = l;
-	else
+	else 
 		max = i;
 	if (root[max] < root[r] && r <= heapsize)
 		max = r;
@@ -102,12 +102,10 @@ void MaxHeap::heapSort()
 {
 	//buildHeap();
 	//print();
-	int len = heapsize;
-
-	for (int i = len-1; i >= 1; i--)
+	for (int i = heapsize-1; i >= 1; i--)
 	{
 		Swap(&root[i], &root[1]);
-		--len;
+		--heapsize;
 		heapify(1);
 		cout << "\nHeap dopo il primo ciclo" << endl;
 		print();
@@ -125,7 +123,7 @@ int main()
 		cin >> elem;
 		h.insert(elem);
 	}
-
+	
 	h.heapSort();
 	h.print();
 
