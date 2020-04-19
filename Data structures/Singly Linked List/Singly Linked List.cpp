@@ -5,8 +5,6 @@
 #include <chrono>
 using namespace std;
 
-    
-
 class Node
 {
     string nome;
@@ -57,7 +55,6 @@ void Studente::pushBack(const string& nome, int cfu, int n_esami, float media)
     newNode->next = nullptr;
     for (app = head; app->next != nullptr; app = app->next);
     app->next = newNode;
-
 }
 
 

@@ -1,6 +1,7 @@
 #include "tree.h"
 #include<iostream>
 using namespace std;
+
 // 1  -3  5 -2 7 -3
 
 void Tree::insert(int key)
@@ -79,7 +80,9 @@ void Tree::trasplant(Node* u, Node* v)
         u->parent->right = v;
     if (v != nullptr)
         v->parent = u->parent;
+}
 
-
-
+Node& Tree::operator++()
+{
+    return *successorSearch(this->root);
 }
